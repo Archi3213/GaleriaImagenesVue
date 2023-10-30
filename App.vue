@@ -19,7 +19,8 @@ export default {
         { id: 2, url: "https://s1.ppllstatics.com/lasprovincias/www/multimedia/202112/12/media/cortadas/gatos-kb2-U160232243326NVC-1248x770@Las%20Provincias.jpg", title: "Gato" },
         { id: 3, url: "https://www.arteescuela.com/wp-content/uploads/2022/10/como-dibujar-un-pajaro-paso-a-paso.jpg", title: "Pájaro" },
         { id: 4, url: "https://concepto.de/wp-content/uploads/2018/08/Londres-e1533855310803.jpg", title: "Ciudad" },
-        { id: 5, url: "https://concepto.de/wp-content/uploads/2018/08/monta%C3%B1a-clima-min-e1533762913759.jpg", title: "Montaña" }
+        { id: 5, url: "https://concepto.de/wp-content/uploads/2018/08/monta%C3%B1a-clima-min-e1533762913759.jpg", title: "Montaña" },
+        { id: 6, url: "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/09/20/16636691477600.jpg", title: "Coches" }
       ]
     };
   }
