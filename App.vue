@@ -36,6 +36,9 @@ export default {
 
 .item {
   text-align: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 img {
