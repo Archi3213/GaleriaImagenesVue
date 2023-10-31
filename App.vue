@@ -1,15 +1,14 @@
-<template>
-  <div id="app">
-    <h1>Galería de imágenes con Vue</h1>
-    <div class="gallery">
-      <div v-for="image in images" :key="image.id" class="item">
-        <img :src="image.url" :alt="image.title">
-        <p>{{ image.title }}</p>
+  <template>
+    <div id="app">
+      <h1>Galería de imágenes con Vue</h1>
+      <div class="gallery">
+        <div v-for="image in images" :key="image.id" class="item">
+          <img :src="image.url" :alt="image.title">
+          <p>{{ image.title }}</p>
+        </div>
       </div>
     </div>
-  </div>
-</template>
-
+  </template>
 <script>
 export default {
   data() {
@@ -26,22 +25,19 @@ export default {
   }
 };
 </script>
-
-<style>
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-
+  <style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
 .item {
   text-align: center;
   border: 2px solid black;
   border-radius: 3px;
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
-
-img {
-  width: 100%;
-}
-</style>
+  img {
+    width: 100%;
+  }
+  </style>

@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { template } from 'vue'
 
 import App from './App.vue'
 
